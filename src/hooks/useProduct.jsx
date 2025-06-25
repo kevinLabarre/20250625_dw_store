@@ -17,6 +17,9 @@ export const useProduct = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  const [page, setPage] = useState(1);
+  const [perPage, setPerPage] = useState(8);
+
   const getProducts = () => {
     setLoading(true);
     setError(null);
@@ -33,5 +36,26 @@ export const useProduct = () => {
       });
   };
 
-  return { getProducts, loading, error };
+  const getPaginate = () => {
+    setLoading(true);
+    return api
+      .get(`/?_page=${page}&_per_page=${perPage}`)
+      .then((resp) => resp.data)
+      .catch((err) => {
+        setError(err);
+        throw err;
+      })
+      .finally(() => setLoading(false));
+  };
+
+  return {
+    getProducts,
+    loading,
+    error,
+    getPaginate,
+    setPage,
+    setPerPage,
+    page,
+    perPage,
+  };
 };
