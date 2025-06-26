@@ -1,4 +1,6 @@
+import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
+import { addProduct } from "../redux/slices/cartSlice";
 
 export const ProductCard = ({ product }) => {
   const navigate = useNavigate();
@@ -6,6 +8,8 @@ export const ProductCard = ({ product }) => {
   const handleShowDetails = () => {
     navigate(`/products/${product.id}`);
   };
+
+  const dispatch = useDispatch();
 
   return (
     <div className="flex shadow-xl card bg-base-100 w-96">
@@ -24,7 +28,9 @@ export const ProductCard = ({ product }) => {
             Voir
           </button>
           <Link to={`/products/${product.id}`}>Voir avec le Link</Link>
-          <button className="btn">ajouter au panier</button>
+          <button className="btn" onClick={() => dispatch(addProduct(product))}>
+            ajouter au panier
+          </button>
         </div>
       </div>
     </div>

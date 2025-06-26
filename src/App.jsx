@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { Products } from "./view/Products";
 import { ProductDetail } from "./view/ProductDetail";
 import { CounterRedux } from "./view/CounterRedux";
+import { Cart } from "./view/Cart";
 
 function App() {
   const router = createBrowserRouter([
@@ -16,6 +17,7 @@ function App() {
         { path: "/products", element: <Products /> },
         { path: "/products/:id", element: <ProductDetail /> }, // Idéalement, si possible, utiliser un 'slug'
         { path: "/compteur-redux", element: <CounterRedux /> },
+        { path: "/panier", element: <Cart /> },
         { path: "*", element: <>Page: 404 NOT FOUND </> },
       ],
     },

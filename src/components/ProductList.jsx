@@ -1,7 +1,7 @@
 import { ProductCard } from "./ProductCard";
 import { SkeletonProductCard } from "./SkeletonProductCard";
 
-export const ProductList = ({ products, loading }) => {
+export const ProductList = ({ products, loading = false }) => {
   const array = Array.from({ length: 8 });
 
   return (
