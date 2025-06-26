@@ -1,19 +1,12 @@
 import { useEffect } from "react";
+import { useProduct } from "../hooks/useProduct";
 import { useForm } from "react-hook-form";
 
-export const ProductForm = () => {
-  const product = {
-    title: "Mon produit",
-    price: 150,
-    slug: "mon-produit",
-    category: "Mon catégorie",
-    description: "Ma description",
-  };
-
+export const ProductForm = ({ product, updateProductsTable }) => {
   useEffect(() => {
     // setValue("title", "Titre pré-rempli");
     reset(product); // reset + remplissage avec les données de 'product'
-  }, []);
+  }, [product]);
 
   const {
     register,
@@ -23,8 +16,17 @@ export const ProductForm = () => {
     reset,
   } = useForm();
 
-  const submit = () => {
-    // Pour soummettre le form
+  const { update } = useProduct();
+
+  const submit = (productUpdate) => {
+    update(product.id, productUpdate).then((resp) => {
+      updateProductsTable((prev) =>
+        prev.map((productMap) =>
+          productMap.id === resp.id ? resp : productMap
+        )
+      );
+      document.getElementById("my_modal").close();
+    });
   };
 
   return (
@@ -35,6 +37,9 @@ export const ProductForm = () => {
         <input placeholder="slug" {...register("slug")} />
         <input placeholder="category" {...register("category")} />
         <input placeholder="description" {...register("description")} />
+        <button className="btn" type="submit">
+          Mettre à jour
+        </button>
       </form>
     </>
   );

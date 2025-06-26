@@ -70,7 +70,7 @@ export const Products = () => {
       </div>
 
       {/* Pour pratique sur formulaire de mise à jour (avec pré-remplissage du formulaire) */}
-      <ProductTable products={products} />
+      <ProductTable products={products} updateProducts={setProducts} />
     </>
   );
 };

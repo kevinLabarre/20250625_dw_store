@@ -11,7 +11,7 @@ export const useProduct = () => {
   // Pour rajouter un délai lors de l'envoi de nos requêtes
   api.interceptors.request.use(
     (config) =>
-      new Promise((resolve) => setTimeout(() => resolve(config), 3000))
+      new Promise((resolve) => setTimeout(() => resolve(config), 1000))
   );
 
   const [loading, setLoading] = useState(false);
@@ -64,6 +64,20 @@ export const useProduct = () => {
       .finally(() => setLoading(false));
   };
 
+  const update = (id, product) => {
+    setLoading(true);
+    setError(null);
+
+    return api
+      .put(`/${id}`, product)
+      .then((resp) => resp.data)
+      .catch((err) => {
+        setError(err);
+        throw err;
+      })
+      .finally(() => setLoading(false));
+  };
+
   return {
     getProducts,
     loading,
@@ -74,5 +88,6 @@ export const useProduct = () => {
     page,
     perPage,
     getById,
+    update,
   };
 };

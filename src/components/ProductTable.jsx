@@ -1,9 +1,13 @@
+import { useState } from "react";
 import { Modal } from "./Modal";
 import { ProductForm } from "./ProductForm";
 
-export const ProductTable = ({ products }) => {
-  const openModal = () => {
+export const ProductTable = ({ products, updateProducts }) => {
+  const [product, setProduct] = useState(null);
+
+  const openModal = (product) => {
     document.getElementById("my_modal").showModal();
+    setProduct(product);
   };
 
   return (
@@ -28,7 +32,10 @@ export const ProductTable = ({ products }) => {
                   <td>{p.slug}</td>
                   <td>{p.category}</td>
                   <td>
-                    <button onClick={openModal} className="btn btn-warning">
+                    <button
+                      onClick={() => openModal(p)}
+                      className="btn btn-warning"
+                    >
                       Mettre à jour
                     </button>
                   </td>
@@ -36,7 +43,14 @@ export const ProductTable = ({ products }) => {
               ))}
             </tbody>
           </table>
-          <Modal content={<ProductForm />} />
+          <Modal
+            content={
+              <ProductForm
+                product={product}
+                updateProductsTable={updateProducts}
+              />
+            }
+          />
         </div>
       )}
     </>
