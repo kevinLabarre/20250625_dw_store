@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Products } from "./view/Products";
 import { ProductDetail } from "./view/ProductDetail";
+import { CounterRedux } from "./view/CounterRedux";
 
 function App() {
   const router = createBrowserRouter([
@@ -14,6 +15,7 @@ function App() {
         { path: "", element: <>Page d'accueil</> },
         { path: "/products", element: <Products /> },
         { path: "/products/:id", element: <ProductDetail /> }, // Idéalement, si possible, utiliser un 'slug'
+        { path: "/compteur-redux", element: <CounterRedux /> },
         { path: "*", element: <>Page: 404 NOT FOUND </> },
       ],
     },
