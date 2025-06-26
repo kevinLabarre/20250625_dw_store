@@ -3,6 +3,7 @@ import { useProduct } from "../hooks/useProduct";
 import { ProductList } from "../components/ProductList";
 import { Pagination } from "../components/Pagination";
 import { SelectPagination } from "../components/SelectPagination";
+import { ProductTable } from "../components/ProductTable";
 
 export const Products = () => {
   const { getPaginate, setPage, setPerPage, perPage, page, loading } =
@@ -67,6 +68,9 @@ export const Products = () => {
           handleClick={clickOnPaginationButton}
         />
       </div>
+
+      {/* Pour pratique sur formulaire de mise à jour (avec pré-remplissage du formulaire) */}
+      <ProductTable products={products} />
     </>
   );
 };

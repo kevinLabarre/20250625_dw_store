@@ -38,8 +38,24 @@ export const useProduct = () => {
 
   const getPaginate = () => {
     setLoading(true);
+    setError(null);
+
     return api
       .get(`/?_page=${page}&_per_page=${perPage}`)
+      .then((resp) => resp.data)
+      .catch((err) => {
+        setError(err);
+        throw err;
+      })
+      .finally(() => setLoading(false));
+  };
+
+  const getById = (id) => {
+    setLoading(true);
+    setError(null);
+
+    return api
+      .get(`/${id}`)
       .then((resp) => resp.data)
       .catch((err) => {
         setError(err);
@@ -57,5 +73,6 @@ export const useProduct = () => {
     setPerPage,
     page,
     perPage,
+    getById,
   };
 };
