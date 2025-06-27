@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import { useProduct } from "../hooks/useProduct";
+// import { useProduct } from "../hooks/useProduct";
 import { useForm } from "react-hook-form";
+import { useProductOpti } from "../hooks/useProductOpti";
 
 export const ProductForm = ({ product, updateProductsTable }) => {
   useEffect(() => {
@@ -16,7 +17,8 @@ export const ProductForm = ({ product, updateProductsTable }) => {
     reset,
   } = useForm();
 
-  const { update } = useProduct();
+  // const { update } = useProduct();
+  const { update } = useProductOpti();
 
   const submit = (productUpdate) => {
     update(product.id, productUpdate).then((resp) => {
