@@ -5,7 +5,8 @@ import { Products } from "./view/Products";
 import { ProductDetail } from "./view/ProductDetail";
 import { CounterRedux } from "./view/CounterRedux";
 import { Cart } from "./view/Cart";
-import { Homepage } from "./components/Homepage";
+import { Homepage } from "./view/Homepage";
+import { Login } from "./view/Login";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,7 @@ function App() {
         { path: "/products/:id", element: <ProductDetail /> }, // Idéalement, si possible, utiliser un 'slug'
         { path: "/compteur-redux", element: <CounterRedux /> },
         { path: "/panier", element: <Cart /> },
+        { path: "/login", element: <Login /> },
         { path: "*", element: <>Page: 404 NOT FOUND </> },
       ],
     },

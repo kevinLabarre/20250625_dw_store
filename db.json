@@ -11,15 +11,15 @@
     },
     {
       "title": "Logitech G Driving Force Racing Wheel",
-      "price": "300",
+      "price": "",
       "image": "https://resource.logitech.com/content/dam/gaming/en/products/drivingforce/g920-gallery-1-2.png",
-      "description": "Le Logitech G29 Driving Force Racing Wheel est un volant de course pour les jeux de simulation de conduite.",
+      "description": "",
       "slug": "logitech-g29-driving-force-racing-wheel",
-      "category": "Jeux video",
+      "category": "",
       "id": "7"
     },
     {
-      "title": "SteelSeries Arctis 6",
+      "title": "eeff",
       "price": "100",
       "image": "https://imgs.search.brave.com/GjKm1ts36una5eeI5qirTYRWFLj7LtAgHoILifACsEw/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9C/WWJTR0JpMWJCQS9t/YXhyZXNkZWZhdWx0/LmpwZw",
       "description": "Le SteelSeries Arctis 7 est un casque de jeu sans fil pour PC et consoles.",
@@ -30,7 +30,7 @@
     {
       "id": "9",
       "title": "ASUS ROG Zephyrus G15",
-      "price": 1700,
+      "price": "1700",
       "image": "https://imgs.search.brave.com/DxqL4L6yi4h1VgC29uswfX_Zwhha86UvSzcOPWSasIk/rs:fit:1200:886:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8tLVlpaEN1S3JR/Y2cvWDJ4Q3VISzBp/QUkvQUFBQUFBQUFL/UWsvMk1sVkdRNmJw/LTQ2cFNELTZOblZl/QkJjMVd2Mi1LbGln/Q05jQkdBc1lIUS9z/MTQwMC9BU1VTJTJC/Uk9HJTJCWmVwaHly/dXMlMkJHMTUlMkJH/QTUwMklWLUFaMDQw/VC5wbmc",
       "description": "L'ASUS ROG Zephyrus G15 est un ordinateur portable de jeu puissant et léger.",
       "slug": "asus-rog-zephyrus-g15",
@@ -206,6 +206,200 @@
       "description": "Le Samsung Galaxy S21 Ultra est un smartphone haut de gamme avec un écran AMOLED dynamique de 6,8 pouces, une batterie longue durée et un appareil photo de qualité professionnelle.",
       "slug": "samsung-galaxy-s21-ultra",
       "category": "Smartphone"
+    }
+  ],
+  "logs": [
+    {
+      "id": "9530",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "c2c7",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "e3d2",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "906a",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "daf6",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "12d3",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "03ff",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "0703",
+      "content": "AxiosError: Request failed with status code 404"
+    },
+    {
+      "id": "881a",
+      "message": "Request failed with status code 404",
+      "name": "AxiosError",
+      "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1232:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1564:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1574:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1531:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2006:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2209:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2118:25\nforEachMethodNoData/Axios.prototype[method]@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2246:17\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:8:15\nhandleRequest@http://localhost:5173/src/hooks/useAxios.jsx:11:30\ngetProducts@http://localhost:5173/src/hooks/useProductOpti.jsx?t=1751035519322:11:12\nHomepage/<@http://localhost:5173/src/view/Homepage.jsx?t=1751035519322:30:5\nreact-stack-bottom-frame@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:17478:20\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:1487:15\ncommitHookEffectListMount@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8460:122\ncommitHookPassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8518:60\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9887:29\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9984:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9984:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9984:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9890:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\n",
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Authorization": "Bearer TOKEN_BACK"
+        },
+        "baseURL": "http://localhost:3001/dkozkd",
+        "method": "get",
+        "url": "/products",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ERR_BAD_REQUEST",
+      "status": 404
+    },
+    {
+      "id": "9f9c",
+      "message": "Request failed with status code 404",
+      "name": "AxiosError",
+      "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1232:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1564:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1574:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1531:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2006:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2209:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2118:25\nforEachMethodNoData/Axios.prototype[method]@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2246:17\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:8:15\nhandleRequest@http://localhost:5173/src/hooks/useAxios.jsx:11:30\ngetProducts@http://localhost:5173/src/hooks/useProductOpti.jsx?t=1751035519322:11:12\nHomepage/<@http://localhost:5173/src/view/Homepage.jsx?t=1751035519322:31:17\nreact-stack-bottom-frame@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:17478:20\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:1487:15\ncommitHookEffectListMount@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8460:122\ncommitHookPassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8518:60\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9887:29\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9984:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9984:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9984:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9890:51\nrecursivelyTraversePassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9868:38\ncommitPassiveMountOnFiber@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9881:51\n",
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Authorization": "Bearer TOKEN_BACK"
+        },
+        "baseURL": "http://localhost:3001/dkozkd",
+        "method": "get",
+        "url": "/products",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ERR_BAD_REQUEST",
+      "status": 404
+    },
+    {
+      "id": "2560",
+      "message": "Request failed with status code 404",
+      "name": "AxiosError",
+      "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1232:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1564:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1574:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1531:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2006:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2209:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2118:25\nforEachMethodNoData/Axios.prototype[method]@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2246:17\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:8:15\nhandleRequest@http://localhost:5173/src/hooks/useAxios.jsx:11:30\ngetProducts@http://localhost:5173/src/hooks/useProductOpti.jsx?t=1751035519322:11:12\nHomepage/<@http://localhost:5173/src/view/Homepage.jsx?t=1751035519322:30:5\nreact-stack-bottom-frame@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:17478:20\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:1487:15\ncommitHookEffectListMount@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8460:122\ncommitHookPassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8518:60\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10016:42\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\n",
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Authorization": "Bearer TOKEN_BACK"
+        },
+        "baseURL": "http://localhost:3001/dkozkd",
+        "method": "get",
+        "url": "/products",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ERR_BAD_REQUEST",
+      "status": 404
+    },
+    {
+      "id": "81ac",
+      "message": "Request failed with status code 404",
+      "name": "AxiosError",
+      "stack": "settle@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1232:12\nonloadend@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1564:13\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1574:7\nxhr_default<@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:1531:10\ndispatchRequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2006:10\npromise callback*_request@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2209:27\nrequest@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2118:25\nforEachMethodNoData/Axios.prototype[method]@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:2246:17\nwrap@http://localhost:5173/node_modules/.vite/deps/axios.js?v=8603c32f:8:15\nhandleRequest@http://localhost:5173/src/hooks/useAxios.jsx:11:30\ngetProducts@http://localhost:5173/src/hooks/useProductOpti.jsx?t=1751035519322:11:12\nHomepage/<@http://localhost:5173/src/view/Homepage.jsx?t=1751035519322:31:17\nreact-stack-bottom-frame@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:17478:20\nrunWithFiberInDEV@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:1487:15\ncommitHookEffectListMount@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8460:122\ncommitHookPassiveMountEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:8518:60\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10016:42\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10054:55\nrecursivelyTraverseReconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:9995:34\nreconnectPassiveEffects@http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8603c32f:10009:55\n",
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": [
+          "xhr",
+          "http",
+          "fetch"
+        ],
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Authorization": "Bearer TOKEN_BACK"
+        },
+        "baseURL": "http://localhost:3001/dkozkd",
+        "method": "get",
+        "url": "/products",
+        "allowAbsoluteUrls": true
+      },
+      "code": "ERR_BAD_REQUEST",
+      "status": 404
     }
   ]
 }

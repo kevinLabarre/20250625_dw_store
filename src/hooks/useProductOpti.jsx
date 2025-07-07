@@ -7,7 +7,10 @@ export const useProductOpti = () => {
   const { loading, error, handleRequest } = useAxios();
   const { jsonServer: api } = useInstanceAxios();
 
-  const getProducts = () => handleRequest(api.get, endpoint);
+  const getProducts = () => {
+    console.log("token de la requete : ", api.defaults.headers.common);
+    return handleRequest(api.get, endpoint);
+  };
 
   const getById = (id) => handleRequest(api.get, `${endpoint}/${id}`);
 
